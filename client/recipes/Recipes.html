@@ -5,7 +5,7 @@
     <button class="new-recipe">新建菜谱</button>
   {{/if}}
 
-  {{#if Template.subscriptionsReady }}
+  {{#if ready }}
     {{#each recipes}}
       {{> Recipe}}
     {{/each}}
