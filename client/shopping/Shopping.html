@@ -1,0 +1,12 @@
+<template name="Shopping">
+  <h1 class="page-title">采购车</h1>
+  {{#each shopping}}
+    <ul class="shopping-list">
+      {{#each ingredients}}
+        <li> {{name}} - <span class="amount">{{amount}}</span></li>
+      {{/each}}
+    </ul>
+  {{else}}
+    <h3>请从 <a href="/recipes">菜谱</a> 里面选择菜品到菜单</h3>
+  {{/each}}
+</template>
