@@ -1,5 +1,8 @@
 Template.MainLayout.helpers({
-  headerComponent: function () {
+  headerComponent() {
     return Header;
+  },
+  sideNavComponent() {
+    return SideNav;
   }
 });
