@@ -1,6 +1,7 @@
 Menu = React.createClass({
   mixins: [ReactMeteorData],
   getMeteorData() {
+    Meteor.subscribe('recipes');
     return {
       menus: Recipes.find({inMenu: true}).fetch(),
       count: Recipes.find({inMenu: true}).count()
