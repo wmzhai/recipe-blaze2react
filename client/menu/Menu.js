@@ -8,8 +8,5 @@ Template.Menu.onCreated(function() {
 Template.Menu.helpers({
   menu: function(){
     return Menu;
-  },
-  recipes: function(){
-    return Recipes.find({inMenu:true});
   }
 });
