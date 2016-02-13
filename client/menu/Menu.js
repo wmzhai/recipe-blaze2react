@@ -1,6 +1,5 @@
-
 Template.Menu.helpers({
-  menu: function(){
+  menuComponent: function () {
     return Menu;
   }
 });
