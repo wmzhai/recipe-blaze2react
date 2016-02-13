@@ -41,3 +41,6 @@ reactive-var
 
 raix:handlebar-helpers
 msavin:jetsetter
+
+react
+react-template-helper
