@@ -1,5 +1,5 @@
 Template.HomeLayout.helpers({
-  headerComponent() {
-    return Header;
+  homeLayoutComponent() {
+    return HomeLayout;
   }
 });
