@@ -1,5 +1,6 @@
 <template name="Recipes">
   {{#if $.Session.get 'newRecipe'}}
+    <div>{{> React component=newRecipeComponent }}</div>
     {{> NewRecipe}}
   {{else}}
     <button class="new-recipe">新建菜谱</button>

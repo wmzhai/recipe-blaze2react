@@ -16,6 +16,9 @@ Template.Recipes.helpers({
       }
     };
     return Recipes.find({}, options);
+  },
+  newRecipeComponent() {
+    return NewRecipe;
   }
 });
 
